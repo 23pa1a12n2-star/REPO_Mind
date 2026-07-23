@@ -307,20 +307,6 @@ RepoMind accelerates this process by combining semantic search with Retrieval-Au
 
 ---
 
-# 🗺 Roadmap
-
-- [ ] Hybrid Search (Vector + BM25)
-- [ ] Streaming Responses (SSE)
-- [ ] Repository Summarization
-- [ ] Dependency Graph Visualization
-- [ ] Multi-Repository Search
-- [ ] Docker Deployment
-- [ ] Cloud Deployment
-- [ ] Conversation Memory
-- [ ] Authentication & User Accounts
-
----
-
 # 🤝 Contributing
 
 Contributions are welcome!
@@ -331,14 +317,6 @@ If you'd like to improve RepoMind, feel free to:
 - Create a new feature branch
 - Commit your changes
 - Submit a Pull Request
-
----
-
-# 📄 License
-
-This project is licensed under the MIT License.
-
-See the **LICENSE** file for more information.
 
 ---
 
