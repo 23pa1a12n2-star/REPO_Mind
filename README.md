@@ -138,33 +138,23 @@ Whether you're exploring an open-source project, reviewing a teammate's code, or
 # 📂 Project Structure
 
 ```
+
 RepoMind/
 │
-├── README.md
+├── 01_.gitignore         # Tells Git which files to keep local
+├── 02_app.py             # Flask core initialization & server runner
+├── 03_routes.py          # API endpoints (/health, /api/index-repo, /api/chat)
+├── 04_rag_engine.py      # Core RAG logic, ChromaDB indexing, & Groq LLM integration
+├── 05_requirements.txt   # Python dependencies list
 │
-├── 01_.gitignore
+├── templates/
+│   └── index.html     # Frontend user interface
 │
-├── 02_app.py
-│   ├── Flask backend
-│   └── API endpoints
+├── static/
+│   ├── 01_styles.css     # Custom styling / Tailwind configuration
+│   └── 02_script.js      # Frontend interaction logic
 │
-├── 03_rag_engine.py
-│   ├── Repository cloning
-│   ├── Code chunking
-│   └── Embedding generation
-│   ├── ChromaDB indexing
-│   └── Question answering
-│
-├── 04_templates/
-│   └── index.html
-│
-├── 05_static/
-│   ├── styles.css
-│   └── script.js
-│
-├── 06_requirements.txt
-│
-└── 07_chroma_db/
+└── README.md          # Project documentation & guide
 ```
 
 ---
