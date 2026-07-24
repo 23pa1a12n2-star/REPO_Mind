@@ -140,31 +140,31 @@ Whether you're exploring an open-source project, reviewing a teammate's code, or
 ```
 RepoMind/
 │
-├── app.py
+├── README.md
+│
+├── 01_.gitignore
+│
+├── 02_app.py
 │   ├── Flask backend
 │   └── API endpoints
 │
-├── rag_engine.py
+├── 03_rag_engine.py
 │   ├── Repository cloning
 │   ├── Code chunking
-│   ├── Embedding generation
+│   └── Embedding generation
 │   ├── ChromaDB indexing
 │   └── Question answering
 │
-├── templates/
+├── 04_templates/
 │   └── index.html
 │
-├── static/
+├── 05_static/
 │   ├── styles.css
 │   └── script.js
 │
-├── requirements.txt
+├── 06_requirements.txt
 │
-├── .env
-│
-├── chroma_db/
-│
-└── README.md
+└── 07_chroma_db/
 ```
 
 ---
