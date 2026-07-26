@@ -1,0 +1,14 @@
+flask
+flask-cors
+python-dotenv
+langchain
+langchain-google-genai
+langchain-groq
+langchain-community
+langchain-core
+langchain-text-splitters
+chromadb
+gitpython
+tiktoken
+sentence-transformers
+chardet
