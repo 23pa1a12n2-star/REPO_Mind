@@ -137,8 +137,7 @@ Whether you're exploring an open-source project, reviewing a teammate's code, or
 
 # 📂 Project Structure
 
-```
-
+```text
 RepoMind/
 │
 ├── static/
@@ -151,12 +150,10 @@ RepoMind/
 ├── 01_.gitignore             # Tells Git which files to keep local
 ├── 02_app.py                 # Flask core initialization & server runner
 ├── 03_routes.py              # API endpoints (/health, /api/index-repo, /api/chat)
-├── 04_rag_engine.py          # Core RAG logic, ChromaDB indexing, & Groq LLM integration
-├── 05_requirements.txt       # Python dependencies list
-└── README.md                 # Project documentation & guide
-
----
-
+├── 04_rag_engine.py          # Core RAG logic, ChromaDB indexing & Groq LLM integration
+├── 05_requirements.txt       # Python dependencies
+└── README.md                 # Project documentation
+```
 
 Paste any GitHub repository URL and start asking questions.
 
@@ -172,7 +169,7 @@ Paste any GitHub repository URL and start asking questions.
 
 # 📄 Supported File Types
 
-### Programming Languages
+## Programming Languages
 
 - Python (`.py`)
 - Java (`.java`)
@@ -188,7 +185,7 @@ Paste any GitHub repository URL and start asking questions.
 - Kotlin (`.kt`)
 - Swift (`.swift`)
 
-### Web Technologies
+## Web Technologies
 
 - HTML
 - CSS
@@ -196,20 +193,20 @@ Paste any GitHub repository URL and start asking questions.
 - Vue
 - Svelte
 
-### Configuration Files
+## Configuration Files
 
 - JSON
 - YAML
 - TOML
 - XML
 
-### Documentation
+## Documentation
 
 - Markdown
 - TXT
 - RST
 
-### Scripts
+## Scripts
 
 - SQL
 - Shell
@@ -239,7 +236,7 @@ If you'd like to improve RepoMind, feel free to:
 
 ---
 
-# Acknowledgements
+# 🙏 Acknowledgements
 
 - **LangChain** — RAG framework
 - **Groq** — Ultra-fast LLM inference
@@ -251,8 +248,11 @@ If you'd like to improve RepoMind, feel free to:
 
 <div align="center">
 
-### ⭐ If you found this project useful, consider giving it a star!
+## ⭐ If you found this project useful, consider giving it a star!
 
 **Made with ❤️ by developers, for developers.**
 
 </div>
+
+---
+
