@@ -141,93 +141,22 @@ Whether you're exploring an open-source project, reviewing a teammate's code, or
 
 RepoMind/
 │
-├── 01_.gitignore         # Tells Git which files to keep local
-├── 02_app.py             # Flask core initialization & server runner
-├── 03_routes.py          # API endpoints (/health, /api/index-repo, /api/chat)
-├── 04_rag_engine.py      # Core RAG logic, ChromaDB indexing, & Groq LLM integration
-├── 05_requirements.txt   # Python dependencies list
+├── static/
+│   ├── 01_style.css          # Custom styling / Tailwind configuration
+│   └── 02_script.js          # Frontend interaction logic
 │
 ├── templates/
-│   └── index.html     # Frontend user interface
+│   └── index.html            # Frontend user interface
 │
-├── static/
-│   ├── 01_styles.css     # Custom styling / Tailwind configuration
-│   └── 02_script.js      # Frontend interaction logic
-│
-└── README.md          # Project documentation & guide
-```
+├── 01_.gitignore             # Tells Git which files to keep local
+├── 02_app.py                 # Flask core initialization & server runner
+├── 03_routes.py              # API endpoints (/health, /api/index-repo, /api/chat)
+├── 04_rag_engine.py          # Core RAG logic, ChromaDB indexing, & Groq LLM integration
+├── 05_requirements.txt       # Python dependencies list
+└── README.md                 # Project documentation & guide
 
 ---
 
-# 🚀 Quick Start
-
-## 1️⃣ Clone the Repository
-
-```bash
-git clone https://github.com/YOUR_USERNAME/RepoMind.git
-
-cd RepoMind
-```
-
----
-
-## 2️⃣ Create a Virtual Environment
-
-```bash
-python -m venv venv
-```
-
-### Windows
-
-```bash
-.\venv\Scripts\activate
-```
-
-### macOS/Linux
-
-```bash
-source venv/bin/activate
-```
-
----
-
-## 3️⃣ Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
----
-
-## 4️⃣ Configure Environment Variables
-
-Create a `.env` file inside the project root.
-
-```env
-GROQ_API_KEY="your-groq-api-key"
-```
-
-Get your free API key from:
-
-https://console.groq.com/keys
-
----
-
-## 5️⃣ Run the Application
-
-```bash
-python app.py
-```
-
----
-
-## 6️⃣ Open the Browser
-
-Visit
-
-```
-http://localhost:5000
-```
 
 Paste any GitHub repository URL and start asking questions.
 
