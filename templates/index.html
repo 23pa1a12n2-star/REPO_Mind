@@ -7,7 +7,7 @@
     <title>Codebase AI - Master Your Repo with RAG</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='01_style.css') }}">
 </head>
 
 <body class="antialiased">
@@ -240,7 +240,7 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="{{ url_for('static', filename='02_script.js') }}"></script>
 </body>
 
 </html>
